@@ -2,11 +2,11 @@
 My python patterns
 
 1. - [x] [Абстрактная фабрика](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/abstract_factory.py)
-2. - [ ] Адаптер
-3. - [ ] Мост
+2. - [x] [Адаптер](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/adapter.py)
+3. - [x] [Мост](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/bridge.py)
 4. - [x] [Строитель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/builder.py)
-5. - [ ] Цепочка обязанностей
-6. - [ ] Команда
+5. - [x] [Цепочка обязанностей](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/chain_of_responsibility.py)
+6. - [x] [Команда](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/command.py)
 7. - [ ] Компоновщик
 8. - [ ] Декоратор
 9. - [ ] Фасад
