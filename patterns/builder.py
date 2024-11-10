@@ -1,3 +1,25 @@
+""" Шаблон 'Строитель' """
+
+
+class UserBuilder:
+    """ Класс создатель пользователя """
+    def __init__(self, login):
+        self._user = User(login)
+
+    def name(self, name) -> 'UserBuilder':
+        self._user.name = name
+        return self
+
+    def surname(self, surname) -> 'UserBuilder':
+        self._user.surname = surname
+        return self
+
+    def age(self, age) -> 'UserBuilder':
+        self._user.age = age
+        return self
+
+    def build(self) -> 'User':
+        return self._user
 
 class User:
     def __init__(self, login):
@@ -42,27 +64,6 @@ class User:
                f"{(', ' + self._name) if len(self._name) > 0 else ''}" \
                f"{(', ' + self._surname) if len(self._surname) > 0 else ''}" \
                f"{(', ' + str(self._age)) if self._age > 0 else ''}"
-
-
-class UserBuilder:
-    """ Класс создатель пользователя """
-    def __init__(self, login):
-        self._user = User(login)
-
-    def name(self, name) -> 'UserBuilder':
-        self._user.name = name
-        return self
-
-    def surname(self, surname) -> 'UserBuilder':
-        self._user.surname = surname
-        return self
-
-    def age(self, age) -> 'UserBuilder':
-        self._user.age = age
-        return self
-
-    def build(self) -> User:
-        return self._user
 
 
 def main():
