@@ -7,7 +7,7 @@ My python patterns
 4. - [x] [Строитель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/builder.py)
 5. - [x] [Цепочка обязанностей](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/chain_of_responsibility.py)
 6. - [x] [Команда](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/command.py)
-7. - [ ] Компоновщик
+7. - [ ] [Компоновщик](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/composite.py)
 8. - [ ] Декоратор
 9. - [ ] Фасад
 10. - [x] [Фабричный метод](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/factory.py)
