@@ -15,6 +15,7 @@ class Receiver:
         """ A set of instructions to run """
         print("Executing Command 2")
 
+
 class AbstractCommand(ABC):
     def __init__(self, receiver: Receiver):
         self._receiver = receiver
@@ -24,6 +25,7 @@ class AbstractCommand(ABC):
     def execute(self):
         """ Необходимый метод execute, который будут использовать все объекты command """
         raise NotImplemented()
+
 
 class Invoker:
     """ Объект, который отправляет команду получателю. Например, кнопка. """
