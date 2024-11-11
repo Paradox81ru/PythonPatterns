@@ -19,12 +19,6 @@ class Component(ABC):
     def parent(self, val: 'Component'):
         self._parent = val
 
-    def add(self, component: 'Component') -> None:
-        pass
-
-    def remove(self, component: 'Component') -> None:
-       pass
-
     def is_composite(self) -> bool:
         """ Может ли компонент иметь вложенные объекты. """
         return False
@@ -86,7 +80,7 @@ def client_code_1(component: Component):
     print(f"RESULT: {component.operation()}", end="")
 
 
-def client_code_2(component1: Component, component2: Component):
+def client_code_2(component1: Composite, component2: Component):
     """
     Благодаря тому, что операции управления потомками объявлены в базовом классе
     Компонента, клиентский код может работать как с простыми, так и со сложными
