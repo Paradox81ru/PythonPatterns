@@ -14,7 +14,7 @@ My python patterns
 11. - [x] [Приспособленец](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/flyweight.py)
 12. - [x] [Интерпретатор](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/interpreter.py)
 13. - [x] [Итератор](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/iterator_classic.py)
-14. - [ ] Посредник
+14. - [x] [Посредник](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/mediator.py)
 15. - [ ] Хранитель
 16. - [ ] Прототип
 17. - [ ] Прокси
