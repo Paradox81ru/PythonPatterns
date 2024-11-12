@@ -12,7 +12,7 @@ My python patterns
 9. - [x] [Фасад](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/facade.py)
 10. - [x] [Фабричный метод](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/factory.py)
 11. - [x] [Приспособленец](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/flyweight.py)
-12. - [ ] Интерпретатор
+12. - [x] [Интерпретатор](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/interpreter.py)
 13. - [ ] Итератор
 14. - [ ] Посредник
 15. - [ ] Хранитель
