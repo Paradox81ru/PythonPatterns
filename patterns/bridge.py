@@ -5,11 +5,11 @@ from abc import ABC, abstractmethod
 class Renderer(ABC):
     @abstractmethod
     def render_circle(self):
-        raise NotImplemented
+        raise NotImplementedError()
 
     @abstractmethod
     def render_square(self):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class OpenGLRenderer(Renderer):
@@ -34,7 +34,7 @@ class BridgeShape(ABC):
 
     @abstractmethod
     def draw(self):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class Circle(BridgeShape):

@@ -6,11 +6,11 @@ class AbstractFactory(ABC):
 
     @abstractmethod
     def create_browser(self) -> 'AbstractBrowser':
-        raise NotImplemented
+        raise NotImplementedError()
 
     @abstractmethod
     def create_messenger(self) -> 'AbstractMessenger':
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class VanillaProductsFactory(AbstractFactory):
@@ -45,12 +45,12 @@ class AbstractBrowser(ABC):
     # Interface - Create Search Toolbar
     @abstractmethod
     def create_search_toolbar(self):
-        raise NotImplemented
+        raise NotImplementedError()
 
     # Interface - Create Browser Window
     @abstractmethod
     def create_browser_window(self):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class AbstractMessenger(ABC):
@@ -59,7 +59,7 @@ class AbstractMessenger(ABC):
     # Interface - Create Messenger Window
     @abstractmethod
     def create_messenger_window(self):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class VanillaBrowser(AbstractBrowser):

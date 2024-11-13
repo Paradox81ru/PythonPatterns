@@ -22,7 +22,7 @@ class AbstractLocalizer(ABC):
 
     @abstractmethod
     def localize(self, msg):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class FrenchLocalizer(AbstractLocalizer):

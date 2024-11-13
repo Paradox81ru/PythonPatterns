@@ -6,7 +6,7 @@ class AbstractBlock(ABC):
     """ Абстрактный блок """
     @abstractmethod
     def draw(self):
-        raise NotImplemented()
+        raise NotImplementedError()
 
 
 class TerminatorBlock(AbstractBlock):

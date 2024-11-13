@@ -24,7 +24,7 @@ class AbstractCommand(ABC):
     @abstractmethod
     def execute(self):
         """ Необходимый метод execute, который будут использовать все объекты command """
-        raise NotImplemented()
+        raise NotImplementedError()
 
 
 class Invoker:

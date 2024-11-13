@@ -20,22 +20,22 @@ class AbstractIterator(ABC):
     @abstractmethod
     def current(self):
         """ Возвращает текущий элемент, на который указывает итератор """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     @abstractmethod
     def next(self):
         """ Сдвигает курсор на следующий элемент коллекции и вернуть его """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     @abstractmethod
     def has_next(self):
         """ Проверяет, существует ли следующий элемент коллекции """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     @abstractmethod
     def remove(self):
         """ Удаляет текущий элемент коллекции, на который указывает курсор """
-        raise NotImplemented()
+        raise NotImplementedError()
 
     def _raise_key_exception(self):
         """ Инициирует ошибку, связанную с невалидным индексом, содержащимся в курсоре """
@@ -111,7 +111,7 @@ class AbstractCollection(ABC):
 
     @abstractmethod
     def iterator(self) -> AbstractIterator:
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class ListCollection(AbstractCollection):

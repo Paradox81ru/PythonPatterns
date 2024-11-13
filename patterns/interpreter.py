@@ -34,7 +34,7 @@ class AbstractBooleanExp(ABC):
     @abstractmethod
     def evaluate(self, context: Context) -> bool:
         """ Получение результата логического выражения """
-        raise NotImplemented()
+        raise NotImplementedError()
 
 
 class ConstantExp(AbstractBooleanExp):

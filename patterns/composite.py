@@ -25,7 +25,7 @@ class Component(ABC):
 
     @abstractmethod
     def operation(self) -> str:
-        raise NotImplemented()
+        raise NotImplementedError()
 
 
 class Leaf(Component):

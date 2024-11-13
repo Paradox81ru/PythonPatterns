@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 class AbstractOldPrinter(ABC):
     @abstractmethod
     def print_document(self, document):
-        raise NotImplemented
+        raise NotImplementedError()
 
 
 class NewPrinter:

@@ -15,10 +15,10 @@ My python patterns
 12. - [x] [Интерпретатор](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/interpreter.py)
 13. - [x] [Итератор](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/iterator_classic.py)
 14. - [x] [Посредник](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/mediator.py)
-15. - [ ] Хранитель
-16. - [ ] Прототип
-17. - [ ] Прокси
-18. - [ ] Наблюдатель
+15. - [x] [Хранитель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/memento.py)
+16. - [x] [Хранитель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/prototype.py)
+17. - [x] [Заместитель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/proxy.py)
+18. - [x] [Наблюдатель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/observer.py)
 19. - [x] [Одиночка](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/singleton.py)
 20. - [ ] Состояние
 21. - [ ] Стратегия
