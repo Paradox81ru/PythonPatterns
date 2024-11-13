@@ -21,7 +21,7 @@ My python patterns
 18. - [x] [Наблюдатель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/observer.py)
 19. - [x] [Одиночка](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/singleton.py)
 20. - [x] [Состояние](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/state.py)
-21. - [ ] Стратегия
-22. - [ ] Шаблонный метод
+21. - [x] [Стратегия](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/strategy.py)
+22. - [x] [Шаблонный метод](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/template_method.py)
 23. - [ ] Посетитель
 
