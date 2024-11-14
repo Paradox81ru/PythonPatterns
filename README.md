@@ -23,5 +23,5 @@ My python patterns
 20. - [x] [Состояние](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/state.py)
 21. - [x] [Стратегия](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/strategy.py)
 22. - [x] [Шаблонный метод](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/template_method.py)
-23. - [ ] Посетитель
+23. - [x] [Посетитель](https://github.com/Paradox81ru/PythonPatterns/blob/main/patterns/visitor.py)
 
