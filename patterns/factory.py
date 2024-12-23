@@ -2,10 +2,12 @@
 from abc import ABC, abstractmethod
 from enum import StrEnum
 
+
 class Localizes(StrEnum):
     FRENCH = "French"
     SPANISH = "Spanish"
     ENGLISH = "English"
+
 
 def factory(language : Localizes = Localizes.ENGLISH) -> 'AbstractLocalizer':
     """ The Factory Method """
@@ -50,6 +52,7 @@ class EnglishLocalizer(AbstractLocalizer):
     """ Возвращает английскую версию продукта """
     def localize(self, msg):
         return msg
+
 
 if __name__ == "__main__":
     f = factory(Localizes.FRENCH)

@@ -17,10 +17,10 @@ class Receiver:
 
 
 class AbstractCommand(ABC):
+    """ Командный интерфейс, который будут реализовывать все команды. """
     def __init__(self, receiver: Receiver):
         self._receiver = receiver
 
-    """ Командный интерфейс, который будут реализовывать все команды. """
     @abstractmethod
     def execute(self):
         """ Необходимый метод execute, который будут использовать все объекты command """

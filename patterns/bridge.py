@@ -46,6 +46,7 @@ class Square(BridgeShape):
     def draw(self):
         self.render.render_square()
 
+
 if __name__ == "__main__":
     opengl_render = OpenGLRenderer()
     directx_render = DirectXRenderer()

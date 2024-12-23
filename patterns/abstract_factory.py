@@ -1,6 +1,7 @@
 """ Порождающий шаблон проектирования 'Абстрактная фабрика' """
 from abc import ABC, abstractmethod
 
+
 class AbstractFactory(ABC):
     """ The Abstract Factory """
 
@@ -104,6 +105,7 @@ class SecureBrowser(AbstractBrowser):
 
     def create_incognito_mode(self):
         print("Secure Browser - Incognito Mode Created")
+
 
 class SecureMessenger(AbstractMessenger):
     """

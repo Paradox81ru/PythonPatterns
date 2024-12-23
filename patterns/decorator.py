@@ -64,19 +64,15 @@ if __name__ == "__main__":
     t_block = TerminatorBlock()
 
     # блок - процесс
-
     p_block = ProcessBlock()
 
     # Применим LabelDecorator к терминальному блоку
-
     label_decorator = LabelBlockDecorator(t_block, "Label222")
 
     # Применим BorderDecorator к терминальному блоку, после применения LabelDecorator
-
     border_decorator1 = BorderBlockDecorator(label_decorator, 22)
 
     # Применим BorderDecorator к блоку - процессу
-
     border_decorator2 = BorderBlockDecorator(p_block, 22)
 
     label_decorator.draw()

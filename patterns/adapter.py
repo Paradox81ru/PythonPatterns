@@ -1,6 +1,7 @@
 """ Шаблон проектирования 'Адаптер' """
 from abc import ABC, abstractmethod
 
+
 class AbstractOldPrinter(ABC):
     @abstractmethod
     def print_document(self, document):

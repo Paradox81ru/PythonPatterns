@@ -22,7 +22,6 @@ class Facade:
         Методы Фасада удобны для быстрого доступа к сложной функциональности
         подсистем. Однако клиенты получают только часть возможностей подсистемы.
         """
-
         results = []
         results.append("Facade initializes subsystems:")
         results.append(self._subsystem_1.operation_1())

@@ -14,12 +14,12 @@ class AlphabeticalOrderIterator(Iterator):
     Конкретные Итераторы реализуют различные алгоритмы обхода. Эти классы
     постоянно хранят текущее положение обхода.
     """
-
     _position: int = None
     """ текущая позиция """
 
     _reverse: bool = False
     """ направление обхода """
+
     def __init__(self, collection: 'WordsCollection', reverse: bool = False):
         self._collection = collection
         self._reverse = reverse

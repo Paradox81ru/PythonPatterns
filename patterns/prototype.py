@@ -16,7 +16,7 @@ class Prototype:
         del self._objects[name]
 
     def clone(self, name,  **attr):
-        """ Клонирует зарегистриорованный объект """
+        """ Клонирует зарегистрированный объект """
         obj = copy.deepcopy(self._objects.get(name))
         obj.__dict__.update(attr)
         return obj
